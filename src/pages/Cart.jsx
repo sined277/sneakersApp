@@ -8,6 +8,7 @@ import smile from '../assets/images/sneakesrs/image 9.png'
 import arrowLeft from '../assets/images/sneakesrs/right.svg'
 
 
+
 const Cart = () => {
     const cartList = useSelector(selectCartList)
 
