@@ -13,7 +13,6 @@ const OverlayCart = () => {
     const cartList = useSelector(selectCartList);
     const totalPrice = useSelector(selectTotalPrice);
     const totalTax = useSelector(selectTotalTax);
-
     const [handlerOpenCart] = useContext(openCartContext)
 
     if (!cartList.length) {
